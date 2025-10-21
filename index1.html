@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>互动网页</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            height: 100vh;/*确保高度覆盖窗口*/
+            background-image: linear-gradient(#e66465,#9198e5);
+        }
+        .search{
+            width:60px;
+            height:36px;
+            color:white; 
+            background-color: black;
+            background-image: linear-gradient(#e66465,#9198e5);
+            display:flex;
+            flex-direction: column;
+            border-radius: 0 10px 10px 0;
+            margin-top: 20px;
+            align-items: center;
+            justify-content: center;
+            user-select: none;
+        }
+        .zhuyemian{
+            width: 50%;
+            height:100%;
+            margin-top: 20%;
+            background:white;
+            flex-direction: column;
+            margin-left: 25%;
+            margin-bottom: 0%;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .shuru{
+            width:80%;
+            height:30.5px;
+            margin-top: 20px;
+            outline-width: 1px;
+            outline-image: #a3a3b0;
+            border-radius: 10px 0 0 10px;
+            box-shadow: 5px;
+            box-shadow:0 0 0 1px rgba(0, 0, 0, .05), 0 2px 4px 1px rgba(0, 0, 0, .09);
+        }
+    </style>
+</head>
+<body>
+    <div class="zhuyemian">
+      <input type="text" class="shuru" >
+      <div class="search" >search</div>
+    </div>    
+</body>
+</html>
